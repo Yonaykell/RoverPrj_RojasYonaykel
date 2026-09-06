@@ -104,7 +104,7 @@ public class Rover{
     }
     public void recargaPotencia(double recarga){
         if(recarga > 0){
-            if (recargasDisponibles != 0){
+            if (recargasDisponibles > 0){
                 potenciaActual += recarga;
                 registrarMandato("Recarga", "Posible: Todo en orden");
                 recargasDisponibles -= 1;
