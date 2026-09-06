@@ -173,7 +173,7 @@ public class Rover{
         LocalDateTime fechaHora = LocalDateTime.now();
         String fechaHoraString = fechaHora.toString();
 
-        ArrayList mandato = new ArrayList<>();
+        ArrayList<String> mandato = new ArrayList<>();
         mandato.add(fechaHoraString);
         mandato.add(tipo);
         mandato.add(status);
