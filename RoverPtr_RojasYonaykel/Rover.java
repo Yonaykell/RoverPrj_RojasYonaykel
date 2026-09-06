@@ -19,7 +19,7 @@ public class Rover{
     private static final double COSTO_DESPLAZAMIENTO = 0.5;
     private static final double UMBRAL_FUGA_CALOR = 0.5;
     //Metodos Constructores:
-    Rover(String nombrePila, String codigoRover, double potencia){
+    public Rover(String nombrePila, String codigoRover, double potencia){
         potenciaInicial = potencia;
         potenciaActual = potencia;
         this.nombrePila = nombrePila;
@@ -28,7 +28,7 @@ public class Rover{
         listaMandatos = new ArrayList<>();
         cantidadRovers ++;
     }
-    Rover(String nombrePila, String codigoRover){
+    public Rover(String nombrePila, String codigoRover){
         this(nombrePila, codigoRover, POTENCIA_INICIAL_DEFAULT);
     }
     //Metodos Publicos:
@@ -142,7 +142,7 @@ public class Rover{
     //Fin Metodos publicos\\
     
     //Metodos Static\\
-    static int getCantidadRovers(){
+    public static int getCantidadRovers(){
         return cantidadRovers;
     }
     //Fin Metodos Static\\
