@@ -1,4 +1,27 @@
 #BlueJ class context
-#Sat Sep 05 18:10:14 CST 2026
+#Sat Sep 05 21:28:42 CST 2026
 comment0.target=Rover
-numComments=1
+comment1.params=nombrePila codigoRover potencia
+comment1.target=Rover(java.lang.String, java.lang.String, double)
+comment10.target=java.lang.String toString()
+comment11.target=int getCantidadRovers()
+comment12.target=boolean detectarFugaCalor()
+comment13.params=gasto
+comment13.target=boolean haySuficientePotencia(double)
+comment14.target=void restarXActual()
+comment15.target=void restarYActual()
+comment16.target=void sumarXActual()
+comment17.target=void sumarYActual()
+comment18.params=tipo status
+comment18.target=void registrarMandato(java.lang.String, java.lang.String)
+comment2.params=nombrePila codigoRover
+comment2.target=Rover(java.lang.String, java.lang.String)
+comment3.target=void desplazarse_adelante()
+comment4.target=void desplazarse_atras()
+comment5.target=void desplazarse_derecha()
+comment6.target=void desplazarse_izquierda()
+comment7.target=int[] getPosicionActual()
+comment8.target=double getPotenciaActual()
+comment9.params=recarga
+comment9.target=void recargaPotencia(double)
+numComments=19
